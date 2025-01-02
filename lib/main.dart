@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kartun_app/screen/login.dart';
+import 'package:kartun_app/screen/mainPage.dart';
 import 'package:kartun_app/screen/profile.dart'; // Pastikan ProfilePage diimpor dengan benar
 
 void main() {
@@ -12,10 +12,9 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'Film App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginPage(), // Pastikan LoginPage diimpor dengan benar
+      home: MainPage(), // Langsung ke MainPage
       routes: {
-        '/home': (context) => MainPage(),
-        '/upload': (context) => UploadPage(), // Periksa apakah UploadPage ada
+        '/upload': (context) => UploadPage(), // Jika ada halaman upload
         '/profile': (context) => ProfilePage(),
       },
     );

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kartun_app/screen/login.dart'; // Pastikan import LoginPage
 import 'package:kartun_app/screen/mainPage.dart'; // Pastikan import MainPage
-import 'package:kartun_app/screen/register.dart'; // Jika ada halaman register
 
 void main() {
   // Test 1: Login dengan kredensial valid

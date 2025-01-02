@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kartun_app/screen/mainPage.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -199,16 +200,6 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
         ],
       ),
-    );
-  }
-}
-
-class MainPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("Home")),
-      body: Center(child: Text("Halaman Home")),
     );
   }
 }
